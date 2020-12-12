@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/smart-keeper/static/css/main.0f79541c.chunk.css",
+    "main.js": "/smart-keeper/static/js/main.b79c4d68.chunk.js",
+    "main.js.map": "/smart-keeper/static/js/main.b79c4d68.chunk.js.map",
+    "runtime-main.js": "/smart-keeper/static/js/runtime-main.f1deccce.js",
+    "runtime-main.js.map": "/smart-keeper/static/js/runtime-main.f1deccce.js.map",
+    "static/js/2.0d0f662e.chunk.js": "/smart-keeper/static/js/2.0d0f662e.chunk.js",
+    "static/js/2.0d0f662e.chunk.js.map": "/smart-keeper/static/js/2.0d0f662e.chunk.js.map",
+    "index.html": "/smart-keeper/index.html",
+    "static/css/main.0f79541c.chunk.css.map": "/smart-keeper/static/css/main.0f79541c.chunk.css.map",
+    "static/js/2.0d0f662e.chunk.js.LICENSE.txt": "/smart-keeper/static/js/2.0d0f662e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1deccce.js",
+    "static/js/2.0d0f662e.chunk.js",
+    "static/css/main.0f79541c.chunk.css",
+    "static/js/main.b79c4d68.chunk.js"
+  ]
+}
