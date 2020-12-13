@@ -1,0 +1,240 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   width: 100vw;
+   background-color: rgb(244,244,244);
+}
+
+*:focus{
+   outline: none;
+}
+
+#root{
+   width: 100%;
+   min-height: 100vh;
+}
+
+
+/* Header */
+.header{
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.header .heading{
+    display: inline-flex;
+    align-items: center;
+}
+
+.header .icon{
+    width: 40px;
+    height: 40px;
+}
+/* Header */
+
+
+
+/* SearchBar */
+.searchBar{
+    display: flex;
+    width: 95%;
+    height: 35px;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid rgb(229,229,229);
+    border-radius: 20px;
+    background-color: rgb(229,229,229);
+}
+
+.searchBar .icon{
+    height: 25px;
+    width: 25px;
+}
+
+.searchBar input{
+    height: 30px;
+    border: none;
+    width: calc(100% - 35px);
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 8px;
+}
+
+.SearchedItem ul{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.SearchedItem li{
+    padding: 8px;
+    border: 1px solid rgb(198,198,198);
+    border-radius: 10px;
+    margin: 10px 0;
+    display: flex;
+    height: 75px;
+}
+
+.SearchedItem p{
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+.SearchedItem p:first-child{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.SearchedItem .note-about{
+    flex-basis: 80%;
+}
+
+.SearchedItem .btn{
+    padding: 10px 0 !important;
+}
+
+.SearchedItem .btn:active{
+    color: white;
+    background-color: red;
+}
+
+.SearchedItem .icons .icon{
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.SearchedItem .icons{
+    display: inline-flex;
+    align-items: center;
+}
+/* SearchBar */
+
+
+/* AllNotes */
+.allnotes ul{
+    list-style: none;
+    padding: 20px 10px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    height: calc(100vh - 125px);
+    overflow: scroll;
+}
+
+.allnotes li{
+    padding: 8px;
+    border: 1px solid rgb(198,198,198);
+    border-radius: 10px;
+    margin: 10px 0;
+    display: flex;
+}
+
+.allnotes p{
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+.allnotes p:first-child{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.allnotes .note-about{
+    flex-basis: 80%;
+}
+
+.allnotes .btn{
+    padding: 10px 0 !important;
+}
+
+.allnotes .btn:active{
+    color: white;
+    background-color: red;
+}
+
+.allnotes .icons .icon{
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.allnotes .icons{
+    display: inline-flex;
+    align-items: center;
+}
+/* AllNotes */
+
+
+/* NoteField */
+.notefield{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    border: 2px solid #919191;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: none;
+    background-color: rgb(246,246,246);
+    padding: 15px;
+    transition-property: top;
+    transition-duration: .400s;
+}
+
+.notefield .title input,.notefield .desc textarea{
+    border: none;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.notefield .title input{
+    border-bottom: 2px solid rgb(132,132,132);
+    font-weight: bold;
+    height: 50px;
+    font-size: 20px;
+}
+
+.notefield .desc textarea{
+    height: calc(100vh - 250px);
+    font-size: 15px;
+    overflow-y: scroll;
+}
+
+.bottom{
+    transition-property: top;
+    transition-duration: .400s;
+    position: fixed;
+    right: 20px;
+    z-index: 10;
+    top: calc(80vh);
+}
+
+.top{
+    transition-property: top;
+    transition-duration: .400s;
+    position: fixed;
+    right: 20px;
+    z-index: 10;
+    top: 40px;
+}
+
+.addNote{
+    border-radius: 50%!important;
+    padding: 15px 10px!important;
+    background-color: rgb(255,185,6)!important;
+}
+
+.addNote .icon{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+/* NoteField */
